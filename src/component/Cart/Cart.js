@@ -1,7 +1,7 @@
 import React from "react";
 
 const Cart = props => {
-  console.log(props);
+  // console.log(props);
   const { name } = props.name;
 
   return (

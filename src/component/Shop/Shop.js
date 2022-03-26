@@ -1,3 +1,4 @@
+import { faRandom } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
 import Equip from "../Equip/Equip";
@@ -19,6 +20,12 @@ const Shop = () => {
       setCart(newCart);
     }
   };
+  const selectSpecialOne = equip => {
+    const newCart = [...cart, equip];
+    const random = Math.floor(Math.random() * newCart.length);
+    const randomEquip = newCart[random];
+    alert(randomEquip.name);
+  };
   const removeSelect = equip => {
     const newCart = [];
     setCart(newCart);
@@ -38,9 +45,15 @@ const Shop = () => {
       <div className="equip-choose">
         <h2>Selected item</h2>
         {cart.map(name => (
-          <Cart name={name} key={name.id}></Cart>
+          <Cart
+            name={name}
+            key={name.serial}
+            // selectSpecialOne={selectSpecialOne}
+          ></Cart>
         ))}
-        <button className="cart-btn">Select Special ONE</button>
+        <button onClick={selectSpecialOne} className="cart-btn">
+          Select Special ONE
+        </button>
         <br />
         <br />
         <button onClick={removeSelect} className="cart-btn">
