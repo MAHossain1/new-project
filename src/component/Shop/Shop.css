@@ -8,6 +8,28 @@
   gap: 35px;
   margin: 100px 50px;
 }
+.equip-choose {
+  margin-top: 100px;
+  position: sticky;
+  top: 0;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(235, 199, 134, 0.726);
+  text-align: center;
+  border: 1px solid white;
+  text-align: center;
+  box-shadow: 0 0 20px gray;
+}
+.cart-btn {
+  padding: 10px;
+  background-color: rgb(197, 179, 173);
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+}
+.cart-btn:hover {
+  background-color: orangered;
+}
 @media screen and (max-width: 1100px) {
   .equip-container {
     grid-template-columns: repeat(2, 1fr);

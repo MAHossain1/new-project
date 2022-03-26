@@ -4,6 +4,7 @@ import React from "react";
 import "./Equip.css";
 
 const Equip = props => {
+  const { handleAddToCart, equip } = props;
   const { name, picture, price } = props.equip;
   return (
     <div className="equip">
@@ -11,7 +12,7 @@ const Equip = props => {
       <h2>{name} </h2>
       <h4>${price} </h4>
       <div>
-        <button className="btn-cart">
+        <button onClick={() => handleAddToCart(equip)} className="btn-cart">
           <p>Add to Cart</p>
           <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
         </button>
