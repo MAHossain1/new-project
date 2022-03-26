@@ -1,0 +1,19 @@
+.equip {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.equip img {
+  width: 300px;
+  height: 200px;
+}
+.btn-cart {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(197, 179, 173);
+  font-weight: 600;
+  border: none;
+}
+.btn-cart:hover {
+  background-color: orangered;
+}

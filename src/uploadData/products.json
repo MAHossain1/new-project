@@ -1,0 +1,56 @@
+[
+  {
+    "id": "623de72a731d1fedc5d6c1de",
+    "picture": "https://zoopfitness.in/wp-content/uploads/2020/05/Cable-Crossover-or-Functional-Trainer.png",
+    "price": 292,
+    "name": "Cable Crossover"
+  },
+  {
+    "id": "623de72a81d37d1f620ce664",
+    "picture": "../images/image- (2).jpg",
+    "price": 145,
+    "name": "Dumbbells"
+  },
+  {
+    "id": "623de72aefdfb61ad0d07689",
+    "picture": "../images/image- (3).jpg",
+    "price": 114,
+    "name": "Leg Curl Extension"
+  },
+  {
+    "id": "623de72affedf4d533f0880b",
+    "picture": "../images/image- (4).jpg",
+    "price": 394,
+    "name": "Gym bike"
+  },
+  {
+    "id": "623de72ac8fd5f7e78a0aeb0",
+    "picture": "../images/image- (5).jpg",
+    "price": 169,
+    "name": "Advance Treadmill"
+  },
+  {
+    "id": "623de72ae60850f619c6c18d",
+    "picture": "../images/image- (6).jpg",
+    "price": 369,
+    "name": "Cable cross"
+  },
+  {
+    "id": "623de72ae764db23830997cb",
+    "picture": "../images/image- (7).jpg",
+    "price": 232,
+    "name": "LKey Dumbbells"
+  },
+  {
+    "id": "623de72a5db3875f48eb3102",
+    "picture": "../images/image- (8).jpg",
+    "price": 148,
+    "name": "Barbell stand"
+  },
+  {
+    "id": "623de72ad66467d88dedfd1a",
+    "picture": "../images/image- (9).jpg",
+    "price": 159,
+    "name": "Premium weight"
+  }
+]
